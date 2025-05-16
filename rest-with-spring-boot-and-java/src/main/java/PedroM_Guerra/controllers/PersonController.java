@@ -1,4 +1,4 @@
 package PedroM_Guerra.controllers;
 
-public class MathController {
+public class PersonController {
 }
