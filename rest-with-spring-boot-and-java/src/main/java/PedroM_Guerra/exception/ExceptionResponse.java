@@ -1,4 +1,5 @@
 package PedroM_Guerra.exception;
 
-public record ExceptionResponse() {
-}
+import java.util.Date;
+
+public record ExceptionResponse(Date timestamp, String message, String details) {}
