@@ -1,8 +1,8 @@
-package PedroM_Guerra.controllers;
+package pedroMGuerra.controllers;
 
 
-import PedroM_Guerra.services.PersonServices;
-import PedroM_Guerra.model.Person;
+import pedroMGuerra.services.PersonServices;
+import pedroMGuerra.model.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

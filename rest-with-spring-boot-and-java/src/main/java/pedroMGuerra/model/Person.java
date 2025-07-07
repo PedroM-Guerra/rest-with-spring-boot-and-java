@@ -1,4 +1,4 @@
-package PedroM_Guerra.model;
+package pedroMGuerra.model;
 
 import jakarta.persistence.*;
 

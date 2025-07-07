@@ -1,4 +1,4 @@
-package PedroM_Guerra.exception;
+package pedroMGuerra.exception;
 
 import java.util.Date;
 

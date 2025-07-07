@@ -1,7 +1,7 @@
-package PedroM_Guerra.exception.handler;
+package pedroMGuerra.exception.handler;
 
-import PedroM_Guerra.exception.ExceptionResponse;
-import PedroM_Guerra.exception.ResourceNotFoundException;
+import pedroMGuerra.exception.ExceptionResponse;
+import pedroMGuerra.exception.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
