@@ -1,4 +1,4 @@
-package pedroMGuerra.unitetests.mapper.mocks;
+package pedroMGuerra.unittests.mapper.mocks;
 
 import java.util.ArrayList;
 import java.util.List;

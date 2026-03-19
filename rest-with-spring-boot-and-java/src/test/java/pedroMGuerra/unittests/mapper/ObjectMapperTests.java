@@ -1,4 +1,4 @@
-package pedroMGuerra.unitetests.mapper;
+package pedroMGuerra.unittests.mapper;
 import static pedroMGuerra.mapper.ObjectMapper.parseListObjects;
 import static pedroMGuerra.mapper.ObjectMapper.parseObject;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.List;
 
 import pedroMGuerra.data.dto.PersonDTO;
-import pedroMGuerra.unitetests.mapper.mocks.MockPerson;
+import pedroMGuerra.unittests.mapper.mocks.MockPerson;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package pedroMGuerra.services;
+package pedroMGuerra.unittests.services;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -88,13 +88,9 @@ public class PersonServices {
 
     private void addHateoasLinks(PersonDTO dto) {
         dto.add(linkTo(methodOn(PersonController.class).findById(dto.getId())).withSelfRel().withType("GET"));
-
         dto.add(linkTo(methodOn(PersonController.class).findAll()).withRel("FindaAll").withType("GET"));
-
         dto.add(linkTo(methodOn(PersonController.class).create(dto)).withRel("create").withType("POST"));
-
         dto.add(linkTo(methodOn(PersonController.class).update(dto)).withRel("update").withType("PUT"));
-
         dto.add(linkTo(methodOn(PersonController.class).delete(dto.getId())).withRel("delete").withType("DELETE"));
 
     }

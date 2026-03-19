@@ -1,4 +1,4 @@
-package pedroMGuerra.services;
+package pedroMGuerra.unittests.services;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -12,7 +12,7 @@ import pedroMGuerra.data.dto.PersonDTO;
 import pedroMGuerra.exception.RequiredObjectIsNullException;
 import pedroMGuerra.model.Person;
 import pedroMGuerra.repository.PersonRepository;
-import pedroMGuerra.unitetests.mapper.mocks.MockPerson;
+import pedroMGuerra.unittests.mapper.mocks.MockPerson;
 
 import java.util.List;
 import java.util.Optional;
