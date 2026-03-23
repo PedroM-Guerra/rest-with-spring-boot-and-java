@@ -12,6 +12,7 @@ import pedroMGuerra.data.dto.BookDTO;
 import pedroMGuerra.exception.RequiredObjectIsNullException;
 import pedroMGuerra.model.Book;
 import pedroMGuerra.repository.BookRepository;
+import pedroMGuerra.services.BookServices;
 import pedroMGuerra.unittests.mapper.mocks.MockBook;
 
 import java.util.List;
